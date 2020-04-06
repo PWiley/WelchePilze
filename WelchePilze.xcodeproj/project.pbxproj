@@ -79,6 +79,8 @@
 		DA3C4A44243B792100061478 /* WelchePilze */ = {
 			isa = PBXGroup;
 			children = (
+				DA3C4A67243B797A00061478 /* Sources */,
+				DA3C4A68243B798300061478 /* Ressources */,
 				DA3C4A45243B792100061478 /* AppDelegate.swift */,
 				DA3C4A47243B792100061478 /* SceneDelegate.swift */,
 				DA3C4A49243B792100061478 /* ViewController.swift */,
@@ -97,6 +99,36 @@
 				DA3C4A5E243B792300061478 /* Info.plist */,
 			);
 			path = WelchePilzeTests;
+			sourceTree = "<group>";
+		};
+		DA3C4A67243B797A00061478 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DA3C4A69243B799500061478 /* Catalog */,
+				DA3C4A6A243B79A300061478 /* Details */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		DA3C4A68243B798300061478 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		DA3C4A69243B799500061478 /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Catalog;
+			sourceTree = "<group>";
+		};
+		DA3C4A6A243B79A300061478 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Details;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
