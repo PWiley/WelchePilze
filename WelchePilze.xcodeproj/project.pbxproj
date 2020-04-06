@@ -9,11 +9,18 @@
 /* Begin PBXBuildFile section */
 		DA3C4A46243B792100061478 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3C4A45243B792100061478 /* AppDelegate.swift */; };
 		DA3C4A48243B792100061478 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3C4A47243B792100061478 /* SceneDelegate.swift */; };
-		DA3C4A4A243B792100061478 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3C4A49243B792100061478 /* ViewController.swift */; };
 		DA3C4A4D243B792100061478 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3C4A4B243B792100061478 /* Main.storyboard */; };
 		DA3C4A4F243B792300061478 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA3C4A4E243B792300061478 /* Assets.xcassets */; };
 		DA3C4A52243B792300061478 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3C4A50243B792300061478 /* LaunchScreen.storyboard */; };
 		DA3C4A5D243B792300061478 /* WelchePilzeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3C4A5C243B792300061478 /* WelchePilzeTests.swift */; };
+		DA3C4A6C243B7D3200061478 /* MushroomCatalogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3C4A6B243B7D3200061478 /* MushroomCatalogViewModel.swift */; };
+		DA3C4A6E243B7D5D00061478 /* MushroomCatalogDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3C4A6D243B7D5D00061478 /* MushroomCatalogDataSource.swift */; };
+		DA3C4A70243B7D7600061478 /* MushroomCatalogRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3C4A6F243B7D7600061478 /* MushroomCatalogRepository.swift */; };
+		DA3C4A72243B7DA300061478 /* MushroomCatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3C4A71243B7DA300061478 /* MushroomCatalogViewController.swift */; };
+		DA3C4A74243B7DBE00061478 /* MushroomDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3C4A73243B7DBE00061478 /* MushroomDetailsViewController.swift */; };
+		DA3C4A76243B7DCF00061478 /* MushroomDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3C4A75243B7DCF00061478 /* MushroomDetailsViewModel.swift */; };
+		DA3C4A78243B7E6D00061478 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3C4A77243B7E6D00061478 /* AppCoordinator.swift */; };
+		DA3C4A7A243B7E9300061478 /* PilzeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3C4A79243B7E9300061478 /* PilzeCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +37,6 @@
 		DA3C4A42243B792100061478 /* WelchePilze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WelchePilze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA3C4A45243B792100061478 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA3C4A47243B792100061478 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DA3C4A49243B792100061478 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DA3C4A4C243B792100061478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA3C4A4E243B792300061478 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA3C4A51243B792300061478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +44,14 @@
 		DA3C4A58243B792300061478 /* WelchePilzeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WelchePilzeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA3C4A5C243B792300061478 /* WelchePilzeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelchePilzeTests.swift; sourceTree = "<group>"; };
 		DA3C4A5E243B792300061478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA3C4A6B243B7D3200061478 /* MushroomCatalogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomCatalogViewModel.swift; sourceTree = "<group>"; };
+		DA3C4A6D243B7D5D00061478 /* MushroomCatalogDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomCatalogDataSource.swift; sourceTree = "<group>"; };
+		DA3C4A6F243B7D7600061478 /* MushroomCatalogRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomCatalogRepository.swift; sourceTree = "<group>"; };
+		DA3C4A71243B7DA300061478 /* MushroomCatalogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomCatalogViewController.swift; sourceTree = "<group>"; };
+		DA3C4A73243B7DBE00061478 /* MushroomDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomDetailsViewController.swift; sourceTree = "<group>"; };
+		DA3C4A75243B7DCF00061478 /* MushroomDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomDetailsViewModel.swift; sourceTree = "<group>"; };
+		DA3C4A77243B7E6D00061478 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		DA3C4A79243B7E9300061478 /* PilzeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PilzeCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +95,6 @@
 			children = (
 				DA3C4A67243B797A00061478 /* Sources */,
 				DA3C4A68243B798300061478 /* Ressources */,
-				DA3C4A45243B792100061478 /* AppDelegate.swift */,
-				DA3C4A47243B792100061478 /* SceneDelegate.swift */,
-				DA3C4A49243B792100061478 /* ViewController.swift */,
-				DA3C4A4B243B792100061478 /* Main.storyboard */,
-				DA3C4A4E243B792300061478 /* Assets.xcassets */,
-				DA3C4A50243B792300061478 /* LaunchScreen.storyboard */,
-				DA3C4A53243B792300061478 /* Info.plist */,
 			);
 			path = WelchePilze;
 			sourceTree = "<group>";
@@ -104,8 +111,13 @@
 		DA3C4A67243B797A00061478 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				DA3C4A45243B792100061478 /* AppDelegate.swift */,
+				DA3C4A47243B792100061478 /* SceneDelegate.swift */,
+				DA3C4A77243B7E6D00061478 /* AppCoordinator.swift */,
+				DA3C4A4B243B792100061478 /* Main.storyboard */,
 				DA3C4A69243B799500061478 /* Catalog */,
 				DA3C4A6A243B79A300061478 /* Details */,
+				DA3C4A79243B7E9300061478 /* PilzeCoordinator.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -113,6 +125,9 @@
 		DA3C4A68243B798300061478 /* Ressources */ = {
 			isa = PBXGroup;
 			children = (
+				DA3C4A53243B792300061478 /* Info.plist */,
+				DA3C4A4E243B792300061478 /* Assets.xcassets */,
+				DA3C4A50243B792300061478 /* LaunchScreen.storyboard */,
 			);
 			path = Ressources;
 			sourceTree = "<group>";
@@ -120,6 +135,10 @@
 		DA3C4A69243B799500061478 /* Catalog */ = {
 			isa = PBXGroup;
 			children = (
+				DA3C4A6B243B7D3200061478 /* MushroomCatalogViewModel.swift */,
+				DA3C4A6D243B7D5D00061478 /* MushroomCatalogDataSource.swift */,
+				DA3C4A6F243B7D7600061478 /* MushroomCatalogRepository.swift */,
+				DA3C4A71243B7DA300061478 /* MushroomCatalogViewController.swift */,
 			);
 			path = Catalog;
 			sourceTree = "<group>";
@@ -127,6 +146,8 @@
 		DA3C4A6A243B79A300061478 /* Details */ = {
 			isa = PBXGroup;
 			children = (
+				DA3C4A73243B7DBE00061478 /* MushroomDetailsViewController.swift */,
+				DA3C4A75243B7DCF00061478 /* MushroomDetailsViewModel.swift */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -232,9 +253,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA3C4A4A243B792100061478 /* ViewController.swift in Sources */,
+				DA3C4A76243B7DCF00061478 /* MushroomDetailsViewModel.swift in Sources */,
 				DA3C4A46243B792100061478 /* AppDelegate.swift in Sources */,
+				DA3C4A6C243B7D3200061478 /* MushroomCatalogViewModel.swift in Sources */,
+				DA3C4A7A243B7E9300061478 /* PilzeCoordinator.swift in Sources */,
 				DA3C4A48243B792100061478 /* SceneDelegate.swift in Sources */,
+				DA3C4A6E243B7D5D00061478 /* MushroomCatalogDataSource.swift in Sources */,
+				DA3C4A74243B7DBE00061478 /* MushroomDetailsViewController.swift in Sources */,
+				DA3C4A78243B7E6D00061478 /* AppCoordinator.swift in Sources */,
+				DA3C4A72243B7DA300061478 /* MushroomCatalogViewController.swift in Sources */,
+				DA3C4A70243B7D7600061478 /* MushroomCatalogRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +424,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52T6VV3859;
-				INFOPLIST_FILE = WelchePilze/Info.plist;
+				INFOPLIST_FILE = WelchePilze/Ressources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -414,7 +442,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52T6VV3859;
-				INFOPLIST_FILE = WelchePilze/Info.plist;
+				INFOPLIST_FILE = WelchePilze/Ressources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
